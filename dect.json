@@ -1,0 +1,20 @@
+{
+  "img-size": 320,
+  "conf-thres": 0.5,
+  "iou-thres": 0.45,
+  "device": "cpu",
+  "weights": "runs/train/yolov75/weights/best.pt",
+  "agnostic-nms": false,
+  "augment": false,
+  "view-img": false,
+  "save-txt": false,
+  "save-conf": false,
+  "nosave": false,
+  "no-track": false,
+  "update": false,
+  "project": "runs/detect",
+  "name": "exp",
+  "exist-ok": false,
+  "no-trace": false,
+  "classes": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9,10,11,12,13]
+}
